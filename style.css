@@ -3,7 +3,6 @@
     font-family: 'Poppins', sans-serif;
     box-sizing: border-box;
 }
-
 .navbar {
     height: 60px;
     background-color: #0f1111;
@@ -206,6 +205,7 @@
     border: 2px solid #007185;
     padding: 20px 0px 15px;
     margin-top: 15px;
+    margin-bottom: 15px;
 }
 .box-image{
     height: 250px;
@@ -234,4 +234,110 @@
 .box:hover .box-image{
     transform: scale(1.05);
     transition: 0.3s;
+}
+.foot-panel1{
+    background-color: #37475a;
+    color: white;
+    height: 50px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 0.85rem;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+
+.foot-panel1:hover{
+    background-color: #485769;
+}
+
+.foot-panel1 a{
+    text-decoration: none;
+    color: #e2e7e6;
+    font-size: 0.85rem;
+    font-weight: 600;
+    letter-spacing: 0.5px;
+}
+
+.foot-panel2{
+    background-color: #222f3d;
+    color: white;
+    height: 350px;
+    display: flex;
+    justify-content: space-evenly;
+    padding: 40px 0;
+}
+
+.foot-panel2 ul{
+    margin-top: 20px;
+    list-style: none;
+    padding: 0;
+}
+
+.foot-panel2 ul p{
+    font-size: 1rem;
+    font-weight: 700;
+    margin-bottom: 15px;
+    color: #ffffff;
+}
+
+.foot-panel2 ul a{
+    display: block;
+    font-size: 0.85rem;
+    color: #dddddd;
+    text-decoration: none;
+    margin-bottom: 8px;
+    transition: color 0.3s ease;
+}
+
+.foot-panel2 ul a:hover{
+    color: #ffffff;
+    text-decoration: underline;
+}
+
+.foot-panel3{
+    background-color: #222f3d;
+    color: white;
+    border-top: 1px solid #3a4553;
+    height: 70px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.foot-panel3 .logo{
+    background-image: url("amazon_logo.png");
+    background-size: cover;
+    height: 50px;
+    width: 113px;
+}
+
+.foot-panel4{
+    background-color: #0f1111;
+    color: white;
+    height: 80px;
+    font-size: 0.7rem;
+    text-align: center;
+    padding: 20px;
+}
+
+.foot-panel4 .pages{
+    margin-bottom: 10px;
+}
+
+.foot-panel4 .pages a{
+    color: #dddddd;
+    text-decoration: none;
+    margin: 0 10px;
+    transition: color 0.3s ease;
+}
+
+.foot-panel4 .pages a:hover{
+    color: #ffffff;
+    text-decoration: underline;
+}
+
+.foot-panel4 .copyright{
+    color: #dddddd;
+    margin-top: 10px;
 }
