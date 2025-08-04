@@ -23,6 +23,10 @@
     height: 50px;
     width: 100%;
 }
+.logo:hover{
+    transform: scale(1.15);
+    transition: 0.3s;
+}
 
 .border {
     border: 1.5px solid transparent;
@@ -133,6 +137,15 @@
 .panel-all i {
     font-size: 1.5rem;
 }
+.panel-all:hover{
+    cursor: pointer;
+    transform: scale(1.05);
+    transition: 0.3s;
+    background-color: #feb66a;
+    color: #0f1111;
+    border-radius: 4px;
+    padding: 5px;
+}
 
 .panel-ops {
     width: 70%;
@@ -149,12 +162,19 @@
 
 .panel-ops a:hover {
     color: #feb66a;
+    transform: scale(1.05);
+    transition: 0.3s;
 }
 
 .panel-deals {
     margin-left: 15px;
     font-size: 0.9rem;
     font-weight: 700;
+}
+.panel-deals:hover{
+    cursor: pointer;
+    transform: scale(1.05);
+    transition: 0.3s;
 }
 
 .hero-section {
@@ -310,6 +330,31 @@
     background-size: cover;
     height: 50px;
     width: 113px;
+    margin-right: 20px;
+}
+
+.foot-panel3 .developer-info{
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    color: #dddddd;
+}
+
+.foot-panel3 .developer-info p{
+    margin: 2px 0;
+    font-size: 0.8rem;
+}
+
+.foot-panel3 .developer-info a{
+    color: #feb66a;
+    text-decoration: none;
+    font-weight: 600;
+    transition: color 0.3s ease;
+}
+
+.foot-panel3 .developer-info a:hover{
+    color: #f3a847;
+    text-decoration: underline;
 }
 
 .foot-panel4{
