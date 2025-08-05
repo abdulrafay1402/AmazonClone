@@ -5,8 +5,10 @@ A responsive and modern Amazon clone built with HTML, CSS, and JavaScript. This 
 ![Amazon Clone Preview](https://img.shields.io/badge/Status-Complete-brightgreen)
 ![HTML5](https://img.shields.io/badge/HTML5-E34F26?style=for-the-badge&logo=html5&logoColor=white)
 ![CSS3](https://img.shields.io/badge/CSS3-1572B6?style=for-the-badge&logo=css3&logoColor=white)
-![JavaScript](https://img.shields.io/badge/JavaScript-F7DF1E?style=for-the-badge&logo=javascript&logoColor=black)
 
+## 🔗 Live Demo
+
+[View Live Demo](https://amazon-clone-by-abdulrafay.vercel.app)
 ## ✨ Features
 
 ### 🎨 **Design & UI**
@@ -57,17 +59,6 @@ A responsive and modern Amazon clone built with HTML, CSS, and JavaScript. This 
    - Simply open `index.html` in your web browser
    - Or use a local server for development
 
-3. **For development (optional)**
-   ```bash
-   # Using Python
-   python -m http.server 8000
-   
-   # Using Node.js
-   npx serve .
-   
-   # Using PHP
-   php -S localhost:8000
-   ```
 
 4. **Access the application**
    - Navigate to `http://localhost:8000` (if using a server)
@@ -108,19 +99,6 @@ AmazonClone/
 - **Developer Info**: Attribution and GitHub link
 - **Legal Links**: Terms, privacy, and copyright information
 
-## 🎨 Customization
-
-### Colors
-The project uses Amazon's authentic color palette:
-- Primary: `#0f1111` (Dark background)
-- Secondary: `#222f3d` (Panel background)
-- Accent: `#feb66a` (Orange highlights)
-- Text: `#ffffff`, `#dddddd`, `#cccccc`
-
-### Adding New Features
-1. **New Product Categories**: Add more boxes in the shop section
-2. **Additional Pages**: Create new HTML files and link them
-3. **Enhanced Functionality**: Add JavaScript for interactive features
 
 ## 📱 Responsive Design
 
@@ -129,16 +107,14 @@ The website is fully responsive and optimized for:
 - **Tablet**: 768px - 1199px
 - **Mobile**: Below 768px
 
-## 🔗 Live Demo
 
-[View Live Demo](https://your-demo-link.com) *(Add your deployed link here)*
 
 ## 👨‍💻 Developer
 
 **Abdul Rafay**
 - 🎓 Software Engineer at FAST@NUCES KARACHI
 - 💻 [GitHub Profile](https://github.com/abdulrafay1402)
-- 📧 Contact: [your-email@example.com]
+- 📧 Contact: [abdulrafay14021997@gmail.com]
 
 ## 🤝 Contributing
 
@@ -161,7 +137,6 @@ This project is for educational purposes only. All rights belong to their respec
 
 - Amazon.com for the original design inspiration
 - Font Awesome for the icon library
-- Google Fonts for typography
 - The web development community for resources and inspiration
 
 ---
